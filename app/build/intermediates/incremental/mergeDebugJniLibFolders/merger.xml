@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/esteban/.ssh/clonar/Lab1UI/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/esteban/.ssh/clonar/Lab1UI/app/src/debug/jniLibs"/></dataSet></merger>

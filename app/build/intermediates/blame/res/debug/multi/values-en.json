@@ -1,0 +1,301 @@
+[
+    {
+        "outputFile": "/home/esteban/.ssh/clonar/Lab1UI/app/build/intermediates/res/merged/debug/values-en/values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 19,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 8396,
+                        "endLine": 265,
+                        "endColumn": 19,
+                        "endOffset": 8606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endLine": 251,
+                    "endColumn": 19,
+                    "endOffset": 8008
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 653,
+                        "endLine": 258,
+                        "endColumn": 19,
+                        "endOffset": 8391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 8013,
+                    "endColumn": 46,
+                    "endOffset": 8055
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 46,
+                        "endOffset": 58
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 8060,
+                    "endColumn": 62,
+                    "endOffset": 8118
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 62,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 8123,
+                    "endColumn": 56,
+                    "endOffset": 8175
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 56,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 8180,
+                    "endColumn": 61,
+                    "endOffset": 8237
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 61,
+                        "endOffset": 382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 8242,
+                    "endColumn": 55,
+                    "endOffset": 8293
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 83,
+                        "endColumn": 55,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 8298,
+                    "endColumn": 65,
+                    "endOffset": 8359
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 65,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 8364,
+                    "endColumn": 45,
+                    "endOffset": 8405
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 8703,
+                        "endColumn": 45,
+                        "endOffset": 8744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 8410,
+                    "endColumn": 57,
+                    "endOffset": 8463
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 8749,
+                        "endColumn": 57,
+                        "endOffset": 8802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 8468,
+                    "endColumn": 52,
+                    "endOffset": 8516
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 52,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 8521,
+                    "endColumn": 44,
+                    "endOffset": 8561
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 8566,
+                    "endColumn": 45,
+                    "endOffset": 8607
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 8612,
+                    "endColumn": 74,
+                    "endOffset": 8682
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 74,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 8687,
+                    "endColumn": 58,
+                    "endOffset": 8741
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 58,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 8746,
+                    "endColumn": 56,
+                    "endOffset": 8798
+                },
+                "from": {
+                    "file": "/home/esteban/.ssh/clonar/Lab1UI/app/src/main/res/values-en/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 56,
+                        "endOffset": 551
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.destebanalvarez.myapplication.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:id="@+id/scrollView"
+    android:layout_weight="3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <LinearLayout
+            android:id="@+id/linear_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:hint="@string/edit_nombre"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTxt_nombre"
+                android:inputType="text|textNoSuggestions|textCapSentences"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_nombre">
+            <EditText
+                android:hint="@string/edit_apellido"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTxt_apellido"
+                android:inputType="text|textNoSuggestions|textCapSentences"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_pais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_apellido">
+            <AutoCompleteTextView
+                android:hint="@string/pais"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aTxtV_pais" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_pais">
+            <EditText
+                android:hint="@string/edit_telefono"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/edTxt_telefono"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_telefono">
+            <EditText
+                android:hint="@string/edit_direccion"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/edTxt_direccion"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_direccion">
+            <EditText
+                android:hint="@string/edit_correo"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/edTxt_email"
+                android:layout_alignRight="@+id/datePicker"
+                android:layout_alignEnd="@+id/datePicker" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_email">
+            <TextView
+                android:id="@+id/txtVw_sexo"
+                android:textColorHint="@color/colorLetraFormulario"
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_sexo"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroupSexo">
+
+                <RadioButton
+                    android:textColor="@color/colorLetraFormulario"
+                    android:buttonTint="@color/colorLetraFormulario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_mujer"
+                    android:text="@string/sexo_mujer"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:textColor="@color/colorLetraFormulario"
+                    android:buttonTint="@color/colorLetraFormulario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sexo_hombre"
+                    android:id="@+id/radio_hombre" />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_sexo">
+            <TextView
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVw_fechaNacimiento"
+                android:text="@string/view_fechaNacimiento"/>
+            <DatePicker
+                android:layout_gravity="center"
+                android:textColor="@color/colorLetraFormulario"
+                android:yearListSelectorColor="@color/colorLetraFormulario"
+                android:calendarTextColor="@color/colorLetraFormulario"
+                android:datePickerMode="spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:calendarViewShown="false"
+                android:id="@+id/datePicker" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_hobbie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linear_datePicker">
+            <TextView
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVw_hobbie"
+                android:text="@string/view_hobbie"/>
+            <Spinner
+                android:textColor="@color/colorLetraFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_hobbie"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_favorito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_hobbie">
+            <CheckBox
+                android:textColor="@color/colorLetraFormulario"
+                android:buttonTint="@color/colorLetraFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favorito"
+                android:checked="false"
+                android:id="@+id/checkBox_favorito" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/mostrar_contacto"
+        android:id="@+id/button"
+        android:onClick="showContact"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <TextView
+            android:textColor="@color/colorLetraFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtVw_contacto" />
+    </ScrollView>
+
+</LinearLayout>
+
+</LinearLayout>
